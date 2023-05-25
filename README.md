@@ -1,4 +1,23 @@
 # Git exercises
+
+## Bundle 1
+### Exercise 1
+...bash
+ git init
+  502  git branch -m master main
+  503  git status
+  504  git add .
+  505  git commit -m 'the first page'
+  506  git remote add origin https://github.com/christellealexia/git-exercise.git
+  507  git branch -M main
+  508  git push
+  509  git push --set-upstream origin main
+  510  git checkout -b dev
+  511  git checkout -b test
+  512  git branch dev
+  513  git checkout -
+  514  git branch -D test
+  ...bash
 ## Bundle 3
 ### Exercise 2
 ...bash
