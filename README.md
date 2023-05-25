@@ -18,6 +18,31 @@
   513  git checkout -
   514  git branch -D test
   ...bash
+
+  ## Bundle 1
+  ### Exercise 2
+  ...bash
+   git status
+  502  git stash save 'my home page'
+  503  git add .
+  504  git stash save 'my home page'
+  505  git status
+  506  git add about.html
+  507  git stash save 'my about page'
+  508  git add team.html
+  509  git stash save 'my team page'
+  510  git stash pop
+  511  stash list
+  512  git stash list
+  513  git stash pop stash@{1}
+  514  git commit -m 'restored our pages from stash list'
+  515  git push
+  516  git push --set-upstream origin dev
+  517  git stash list
+  518  git stash pop stash@{0}
+  519  git reset
+  ...bash
+
 ## Bundle 3
 ### Exercise 2
 ...bash
